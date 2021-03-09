@@ -7,15 +7,8 @@ all: $(TARGETS)
 
 conegeometry: conegeometry.c
 	$(CC) $(CFLAGS) $< -o $@
-
-logicgates: logicgates.c
-	$(CC) $(CFLAGS) $< -o $@
-
-matrixmultiplication: matrixmultiplication.c
-	$(CC) $(CFLAGS) $< -o $@
-
-windanalysis: windanalysis.c
-	$(CC) $(CFLAGS) $< -o $@
+	
+# TO DO:  fill in the targets for all of the other parts...
 
 .PHONY: clean
 
